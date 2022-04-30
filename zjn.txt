@@ -1,1 +1,14 @@
-sdasdf
+git init  “将该目录更新成一个git资源包”
+git config --global user.name “更新自己的姓名签名”
+git config --global user.email   "更新自己的邮箱签名"
+git add  ”文件名“ “将该文件添加至暂存区”
+git status "" “查看当前本地文件是否可提交至暂存区”
+git checkout "分支名" “跳转至其他分支”
+git bransh "分支名" “创建分支”
+git rm --cached "文件名" “在暂存区删除文件”
+git bransh -v “查看总分支”
+git reset --hard '版本号' “版本跳转”
+git merge '分支名' “分支合并”
+git reflog "查看本地区的文件信息及版本分支跳转版本信息"
+git log “查看本地区的文件详细信息”
+git commit -m "备注名" “文件名” "将文件提交至本地区"
